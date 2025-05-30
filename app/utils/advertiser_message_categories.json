@@ -1,0 +1,36 @@
+{
+	"label_categories" : {
+		"Intention": {
+      "selection-type" : "multi-select-button",
+			"option-set": {
+				"How-to": {"shortcut": "H"},
+				"Troubleshoot": {"shortcut": "T"},
+        "Ask for Human": {"shortcut": "A"},
+				"Q&A": {"shortcut": "Q"},
+				"Greeting / vague": {"shortcut": "G"},
+        "Other": {"shortcut": "O"}
+			},
+			"max_selection": 1,
+			"min_selection": 1
+		},
+		"Product Area": {
+      "selection-type" : "multi-select-button",
+			"option-set": {
+				"Pixel": {"shortcut": "P"},
+				"Location": {"shortcut": "L"},
+				"Spark ads": {"shortcut": "S"},
+				"Payment-blocked": {"shortcut": "B"},
+        "Audience & targeting": {"shortcut": "A"},
+				"Budget": {"shortcut": "U"},
+				"Creative": {"shortcut": "C"},
+				"Payment-promo": {"shortcut": "R"},
+        "Approvals": {"shortcut": "V"},
+				"N/A": {"shortcut": "N"},
+        "Other": {"shortcut": "O"}
+			},
+			"max_selection": 1,
+			"min_selection": 1
+		}
+	}
+}
+

@@ -1,0 +1,38 @@
+{
+	"label_categories" : 
+	{
+		"clarity":   {
+			"option-set" : [1, 2, 3, 4, 5],
+			"selection-type": "slider"
+		},
+		"conciseness":  {
+			"option-set" : [1, 2, 3, 4, 5],
+			"selection-type": "slider"
+		},
+		"relevant & personalized": {
+			"option-set" : [1, 2, 3, 4, 5],
+			"selection-type": "slider",
+      "allow-dont-know": true
+		},
+		"no hallucination (factual)":   {
+			"option-set" : [1, 2, 3, 4, 5],
+			"selection-type": "slider",
+      "allow-dont-know": true
+		},
+		"actionable": {
+			"option-set" :[0, 1],
+			"selection-type": "slider",
+			"allow-NA": true
+		},
+		"overall": {
+			"option-set" : [1, 2, 3, 4, 5],
+			"selection-type": "slider"
+		},
+		"Rationale & Notes": {
+			"selection-type": "text-input",
+			"max-length": 400,
+			"min-length": 2
+		}
+	}
+}
+
